@@ -535,7 +535,7 @@ p {
   display: flex;
   flex-direction: column;
   padding-bottom: 28px;
-  background: #000 url(/img/top-line1.png) right 52% top no-repeat;
+  background: #000 url(/reposit_01/img/top-line1.png) right 52% top no-repeat;
 }
 
 .top-line__container{
