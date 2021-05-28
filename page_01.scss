@@ -1,0 +1,32 @@
+$containerWidth:1100px;
+$baseFontSize: 18px;
+
+//colors
+
+$yellow: #FEDB3F;
+$darkblue: #3A587E;
+
+//normolize
+
+@import url('./css/components/normalize.css');
+
+@import url('../../Fonts/Alegreya_Sans/');
+
+@import "layout";
+
+@import "css/components/hero";
+@import "css/components/header";
+@import "css/components/features";
+@import "css/components/btn";
+@import "css/components/section";
+@import "css/components/headline__title";
+@import "css/components/benefits";
+@import "css/components/benefit";
+@import "css/components/parametrs";
+@import "css/components/offers";
+@import "css/components/team";
+@import "css/components/menutype";
+@import "css/components/reviews";
+@import "css/components/work";
+@import "css/components/order";
+
