@@ -1,5 +1,5 @@
 @import url("./css/components/normalize.css");
-@import url("../../Fonts/Alegreya_Sans/");
+@import url("./Fonts/Alegreya_Sans/");
 html,
 body {
   height: 100%;
@@ -228,7 +228,7 @@ img {
   position: relative;
 }
 .benefits__item:before {
-  content: url("../../img/Com.png");
+  content: url("./img/Com.png");
   position: absolute;
   top: 30px;
   right: 0;
@@ -336,7 +336,7 @@ img {
   margin-top: 52px;
 }
 .parametrs__img:before {
-  content: url("../../img/board3.png");
+  content: url("./img/board3.png");
   position: absolute;
 }
 
@@ -441,7 +441,7 @@ img {
 }
 
 .menu__surf {
-  background: url(../../img/slider.png) center center no-repeat;
+  background: url(./img/slider.png) center center no-repeat;
   background-size: cover;
 }
 
@@ -459,7 +459,7 @@ img {
 .type__item2 {
   min-width: 102px;
   min-height: 652px;
-  background: url(../../img/slide1.png) no-repeat;
+  background: url(./img/slide1.png) no-repeat;
   display: flex;
   margin-left: 20px;
 }
@@ -467,14 +467,14 @@ img {
 .type__item3 {
   min-width: 102px;
   min-height: 652px;
-  background: url(../../img/slide2.png) no-repeat;
+  background: url(./img/slide2.png) no-repeat;
   display: flex;
 }
 
 .type__item4 {
   min-width: 102px;
   min-height: 652px;
-  background: url(../../img/slide3.png) no-repeat;
+  background: url(./img/slide3.png) no-repeat;
   display: flex;
 }
 
@@ -579,7 +579,7 @@ h2 {
 .background {
   width: 100%;
   min-height: 652px;
-  background: url("../../img/untitled.png");
+  background: url("./img/untitled.png");
   background-size: cover;
 }
 
@@ -658,7 +658,7 @@ h2 {
   border-radius: 0;
 }
 .radio--checkbox .radio__visible:before {
-  background: url("../../img/vector.png") center center no-repeat;
+  background: url("./img/vector.png") center center no-repeat;
 }
 
 .radio__elem {
