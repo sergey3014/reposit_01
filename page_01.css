@@ -73,7 +73,7 @@ img {
 }
 
 .hero {
-  background: url("../../img/main.png") center top no-repeat;
+  background: url("./img/main.png") center top no-repeat;
   min-height: 652px;
   height: 100vh;
   width: 100%;
