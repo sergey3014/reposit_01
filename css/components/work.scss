@@ -1,0 +1,24 @@
+.video{
+  width: 100%;
+  background: #F8FAF9;
+}
+
+.work{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 652px;
+}
+
+.work__title{
+  font-weight: bold;
+  font-size: 48px;
+  color: #292929;
+  text-transform: uppercase;
+  margin-top: 62px;
+  margin-bottom: 31px;
+}
+
+.work__video{
+  margin-bottom: 110px;
+}

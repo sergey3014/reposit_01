@@ -1,0 +1,124 @@
+.background{
+  width: 100%;
+  min-height: 652px;
+  background: url("../../img/untitled.png");
+  background-size: cover;
+}
+
+.order-title{
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 62px;
+}
+
+.order__title{
+  display: flex;
+  justify-content: center;
+}
+
+.form{
+  display: flex;
+  padding: 0 82px;
+}
+
+.form__col{
+  flex: 1;
+  margin-right: 20px;
+
+&:last-child{
+  margin-right: 0;
+ }
+}
+
+.form__row{
+  display: flex;
+  margin-bottom: 18px;
+}
+
+.form__block{
+  // flex: 1;
+  margin-right: 20px;
+  &:last-child{
+    margin-right: 0;
+  }
+}
+
+.form__input{
+  width: 100%;
+  border: none;
+  height: 58px;
+  padding: 18px 12px;
+
+  &--textarea{
+    height: 152px;
+    min-width: 450px;
+    resize: none;
+  }
+}
+
+.form__title{
+  font-size: 18px;
+  color: white;
+}
+
+.radio__title{
+  font-size: 18px;
+  color: white;
+}
+
+.form__controls{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.radio{
+  display: flex;
+  cursor: pointer; // сделать доступным элемент для выбора
+  user-select: none; // отключить выделение текста при выборе чекбокса по тексту
+
+  &--checkbox{
+    .radio__visible{
+      border-radius: 0;
+    
+
+      &:before{
+        background: url("../../img/vector.png") center center no-repeat;
+      }
+    }
+  }
+
+}
+
+.radio__elem{
+  display: none;
+  &:checked ~ .radio__visible{
+    &:before{
+      display: block; // при выборе чекбокса отражаем выбор чек бокса дисплей блок
+    }
+  }
+}
+
+.radio__visible{
+  width: 25px;
+  height: 25px;
+  position: relative;
+  border-radius: 50%;
+  background: white;
+  
+
+  &:before{
+    content: "";
+    width: 13px;
+    height: 13px;
+    background: #FEDB3F;
+    border-radius: 50%;
+    position: absolute;
+    display: none; //делаем по умолчанию чекбокс невидимым до его выбора или вызова
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+

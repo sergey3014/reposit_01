@@ -1,0 +1,51 @@
+.longboard {
+  width: 428px;
+  min-height: 375px;
+  margin-left: 618px;
+}
+
+.longboard__text-title {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+  margin-bottom: 24px;
+}
+
+.longboard__subtitle {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 24px;
+}
+
+.longboard__size {
+  display: flex;
+  justify-content: space-between;
+}
+
+.longboard__cost {
+  font-size: 60px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.longboard__weght {
+  margin-right: 108px;
+}
+
+.btn--color--surf {
+  display: block;
+  width: 156px;
+  height: 60px;
+  text-align: center;
+}
+.btn--color--surf--color--surf {
+  background: #FEDB3F;
+  color: #000;
+}
+.btn--color--surf--color--surf:hover {
+  color: black;
+  background: lawngreen;
+}

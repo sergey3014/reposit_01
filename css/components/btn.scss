@@ -1,0 +1,35 @@
+.btn{
+  font-weight: bold;
+  font-size: 16px;
+  width: 156px;
+  height: 60px;
+  text-transform: uppercase;
+  border-radius: 100px;
+  line-height: 1;
+  text-decoration: none;
+  margin-bottom: 85px;
+  border: 0; // убрать обводку по краям кнопки
+  cursor: pointer; //при наведении на кнопку курсор сменится на иконку клика
+
+  &--color--yellow{
+    background: #FEDB3F;
+    color: #000;
+
+    &:hover{
+      color: black;
+      background: lawngreen;
+    }
+  }
+
+  &--color--none{
+    background: transparent;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+
+    &:hover{
+      color: black;
+    }
+  }
+}
+
